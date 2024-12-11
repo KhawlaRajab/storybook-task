@@ -1,0 +1,52 @@
+
+
+
+
+.primary{
+    background-color: var(--color);
+    border-color: var(--color);
+    color: white;    
+}
+
+.secondary{
+    background-color: white;
+    border-color: var(--color);
+    color: var(--color);
+}
+
+.text{
+    background-color: white;
+    border:none;
+    color: var(--color);
+}
+
+.text:hover{
+    text-decoration: underline;
+}
+
+.small{
+   font-size: 12px;
+   padding: 2px 4px;
+}
+
+.medium{
+   font-size: 16px;
+   padding: 16px 32px;}
+
+.large{
+   font-size: 18px;
+   padding: 32px 64px;
+}
+
+.red{
+    --color:red;
+}
+
+.blue{
+    --color:blue;
+}
+
+
+.green{
+    --color:green;
+}
